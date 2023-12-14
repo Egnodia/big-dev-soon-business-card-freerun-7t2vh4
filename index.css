@@ -15,6 +15,30 @@ body{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
+.email{
+  align-items: center;
+  position: absolute;
+  width:15rem;
+  height:20rem;
+  font-size: small;
+  background-color: #2E7D32;
+  margin: 0;
+  color: white;
+  border-top-left-radius: 20px;
+}
+
+.social{
+  position: absolute;
+  bottom: 0; /* Position it at the bottom */
+  left: 0; /* Position it at the left */
+  width: 15rem;
+  color: white;
+  font-size: small;
+  height: 8rem;
+  background-color: #2E7D32;
+  border-bottom-left-radius: 20px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -32,4 +56,51 @@ body{
 
 .footer span {
   font-size: 14px;
+}
+
+.email-icon{
+  float: left;
+  padding-right: 5px;
+}
+
+.phone-icon{
+  float: left;
+  padding-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 75%;
+  }
+}
+
+.titleEmail{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 20px;
+  line-height: 1.1em;
+  margin-top: 14em;
+}
+
+.phone{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 20px;
+  line-height: 1.1em;
+  margin-top: 2em;
+}
+
+.social-find{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.social-icons{
+  margin-left: 20px;
 }
